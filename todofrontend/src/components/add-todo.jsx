@@ -1,9 +1,12 @@
 import React from 'react';
-function AddTodo() {
-    return (
-        <div className="App">
-            Add Todo
-        </div>
-    );
-    }
+
+const AddTodo = ({ token }) => {
+  return (
+    <div>
+      <h2>Add Todo</h2>
+      {/* Form to add a new todo */}
+    </div>
+  );
+};
+
 export default AddTodo;
